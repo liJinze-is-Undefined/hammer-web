@@ -1,0 +1,986 @@
+#all {
+  width: 100%;
+  background: #ededed; }
+
+#navigation {
+  width: 100%;
+  height: 45px;
+  background: #222325; }
+  #navigation .logo {
+    float: left;
+    margin: 10px 0 0 21px; }
+    #navigation .logo a {
+      display: block;
+      height: 20px;
+      width: 20px; }
+      #navigation .logo a .iconfont {
+        color: #fff;
+        font-size: 20px; }
+  #navigation #list-top {
+    float: right;
+    line-height: 28px;
+    margin: 9px 181px 0 0; }
+    #navigation #list-top li {
+      float: left; }
+      #navigation #list-top li a {
+        color: rgba(255, 255, 255, 0.7);
+        display: block;
+        font-size: 12px;
+        padding: 0 20px; }
+      #navigation #list-top li a:visited {
+        color: #e5e5e5;
+        font-weight: 700; }
+  #navigation #ico {
+    position: absolute;
+    box-sizing: border-box;
+    top: 11px;
+    right: 21px; }
+    #navigation #ico span {
+      float: left;
+      position: relative; }
+      #navigation #ico span a {
+        position: relative;
+        height: 20px;
+        width: 20px;
+        margin-left: 8px;
+        display: block; }
+        #navigation #ico span a .iconfont {
+          color: #666; }
+
+#ceiling-list {
+  height: 90px;
+  position: relative;
+  z-index: 20;
+  border-bottom: 1px solid #e1e1e1;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.05);
+  background: #fff; }
+  #ceiling-list #ceil {
+    position: relative;
+    height: 90px;
+    width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; }
+    #ceiling-list #ceil #cl {
+      float: left;
+      height: 28px;
+      line-height: 28px; }
+      #ceiling-list #ceil #cl li {
+        position: relative;
+        float: left;
+        height: 91px; }
+        #ceiling-list #ceil #cl li a {
+          display: block;
+          padding-right: 30px;
+          color: rgba(0, 0, 0, 0.7); }
+        #ceiling-list #ceil #cl li a:visited {
+          font-weight: 700;
+          color: #333; }
+    #ceiling-list #ceil #search-border {
+      position: relative;
+      width: 330px;
+      right: 0;
+      top: -3px; }
+      #ceiling-list #ceil #search-border #search {
+        height: 36px;
+        padding: 0 15px 0 40px;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        border-radius: 20px;
+        background: #fff; }
+        #ceiling-list #ceil #search-border #search .search-box {
+          width: 100%;
+          border: none;
+          outline: none;
+          height: 36px;
+          font-size: 14px;
+          font-weight: 700;
+          color: #333; }
+        #ceiling-list #ceil #search-border #search #search-btn {
+          position: absolute;
+          top: 7px;
+          left: 10px;
+          height: 20px;
+          width: 20px;
+          border: none;
+          cursor: pointer; }
+          #ceiling-list #ceil #search-border #search #search-btn .iconfont {
+            font-size: 20px;
+            color: #777;
+            font-weight: 900;
+            background: #fff; }
+        #ceiling-list #ceil #search-border #search .on-search {
+          position: absolute;
+          height: 20px;
+          line-height: 20px;
+          top: 50%;
+          right: 0;
+          transform: translateY(-50%); }
+          #ceiling-list #ceil #search-border #search .on-search a {
+            border: 1px solid #93b2f7;
+            color: #3965cc;
+            background: #e5efff;
+            display: inline-block;
+            margin-right: 8px;
+            text-decoration: none;
+            border-radius: 10px;
+            height: 20px;
+            padding: 0 10px;
+            display: inline-block;
+            margin-right: 8px;
+            text-decoration: none;
+            border-radius: 10px;
+            height: 20px;
+            padding: 0 10px; }
+    #ceiling-list #ceil #ico {
+      margin-left: 290px;
+      color: #000; }
+      #ceiling-list #ceil #ico #user {
+        margin-bottom: 2px; }
+        #ceiling-list #ceil #ico #user a .iconfont {
+          font-size: 18px; }
+      #ceiling-list #ceil #ico #shopping-car {
+        margin-left: 30px; }
+        #ceiling-list #ceil #ico #shopping-car a .iconfont {
+          font-size: 22px; }
+
+#main {
+  width: 1220px;
+  margin: 0 auto;
+  position: relative; }
+  #main .swiper-container {
+    position: relative;
+    top: 9px;
+    width: 1220px;
+    height: 499px; }
+    #main .swiper-container img {
+      width: 1220px;
+      height: 499px;
+      border-radius: 15px; }
+  #main .click_btn {
+    position: absolute;
+    width: 100%;
+    top: 470px;
+    height: 40px;
+    text-align: center; }
+    #main .click_btn .cb1 {
+      position: relative;
+      width: 10px;
+      height: 10px;
+      border: 1px solid #505050;
+      border-radius: 50%;
+      display: inline-block;
+      text-indent: -9999px;
+      left: -5px; }
+    #main .click_btn .cb2 {
+      position: relative;
+      width: 10px;
+      height: 10px;
+      border: 1px solid #505050;
+      border-radius: 50%;
+      display: inline-block;
+      text-indent: -9999px;
+      left: 5px; }
+  #main #exhibits {
+    width: 1220px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    margin-top: 25px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0, 3px, 8px, -6px, rgba(0, 0, 0, 0.1); }
+    #main #exhibits .exhibit {
+      display: flex;
+      flex-wrap: nowrap; }
+      #main #exhibits .exhibit li {
+        border-right: 1px solid #eee;
+        height: 200px;
+        z-index: 9;
+        box-shadow: inset darkgray 0px 0px 30px 5px;
+        cursor: pointer; }
+        #main #exhibits .exhibit li img {
+          height: 200px;
+          z-index: 8;
+          opacity: 1;
+          transition: opacity 0.5s; }
+        #main #exhibits .exhibit li img:hover {
+          opacity: 0.8; }
+      #main #exhibits .exhibit .nbr {
+        border-right: none; }
+  #main #main-box {
+    width: 1219px;
+    margin: 25px auto;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background: #fff; }
+    #main #main-box .box-title {
+      height: 60px;
+      border-bottom: 1px solid #eee; }
+      #main #main-box .box-title #hot-t {
+        float: left;
+        margin-left: 25px;
+        font-size: 22px;
+        color: #333;
+        text-align: center;
+        line-height: 60px; }
+      #main #main-box .box-title .paging {
+        width: 96px;
+        float: right;
+        margin-right: 25px; }
+        #main #main-box .box-title .paging .f-left {
+          width: 22px;
+          height: 22px;
+          display: inline-block;
+          border: 1px solid #333;
+          border-radius: 50%;
+          float: left;
+          margin: 18px 12px;
+          text-align: center;
+          line-height: 22px; }
+        #main #main-box .box-title .paging .f-right {
+          width: 22px;
+          height: 22px;
+          display: inline-block;
+          border: 1px solid #333;
+          border-radius: 50%;
+          float: right;
+          margin: 18px 12px;
+          text-align: center;
+          line-height: 22px; }
+    #main #main-box #box-body ul {
+      height: 429px; }
+      #main #main-box #box-body ul li {
+        width: 304px;
+        height: 429px;
+        float: left;
+        border-right: 1px solid #eee;
+        transition: box-shadow,0.5s; }
+        #main #main-box #box-body ul li img {
+          width: 216px;
+          height: 216px;
+          display: block;
+          margin: 0 auto;
+          padding: 45px 0 20px;
+          position: relative; }
+        #main #main-box #box-body ul li .opbtn {
+          margin: 15px auto;
+          text-align: center;
+          height: 15px;
+          padding-left: 100px; }
+          #main #main-box #box-body ul li .opbtn span {
+            width: 13px;
+            height: 13px;
+            border: 1px solid #ccc;
+            border-radius: 50%;
+            display: block;
+            float: left;
+            cursor: pointer;
+            margin: 0 5px; }
+          #main #main-box #box-body ul li .opbtn .active {
+            box-shadow: inset 0 0 0 1px #b2b2b2;
+            border-color: #b2b2b2; }
+      #main #main-box #box-body ul li:hover {
+        box-shadow: inset #bbb 0 0 30px 1px;
+        cursor: pointer; }
+      #main #main-box #box-body ul .tit {
+        margin: 0 auto;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center; }
+      #main #main-box #box-body ul .inteoduce {
+        width: 100%;
+        color: #999;
+        font-weight: 100;
+        font-size: 10px;
+        margin-top: 25px;
+        text-align: center; }
+      #main #main-box #box-body ul .price {
+        display: block;
+        color: #f00;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0 auto;
+        text-align: center; }
+  #main #trade {
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    margin-top: 25px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 3px 8px -6px rgba(0, 0, 0, 0.1); }
+    #main #trade .box-tit {
+      height: 60px;
+      border-bottom: 1px solid #eee; }
+      #main #trade .box-tit .tit {
+        float: left;
+        margin-left: 25px;
+        font-size: 22px;
+        color: #333;
+        text-align: center;
+        line-height: 60px; }
+    #main #trade .tb-m {
+      height: 857px;
+      width: 1220px;
+      float: left;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden; }
+      #main #trade .tb-m li {
+        width: 304px;
+        height: 428px;
+        float: left;
+        transition: box-shadow,0.5s;
+        border-right: 1px solid rgba(0, 0, 0, 0.14);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.14); }
+        #main #trade .tb-m li img {
+          width: 216px;
+          height: 216px;
+          display: block;
+          margin: 0 auto;
+          padding: 45px 0 20px;
+          position: relative; }
+        #main #trade .tb-m li .tite {
+          margin: 0 auto;
+          font-weight: 700;
+          font-size: 15px;
+          text-align: center; }
+        #main #trade .tb-m li .indte {
+          width: 100%;
+          color: #999;
+          font-weight: 100;
+          font-size: 10px;
+          margin-top: 25px;
+          text-align: center; }
+        #main #trade .tb-m li .price {
+          display: block;
+          color: #f00;
+          font-size: 20px;
+          font-weight: 700;
+          margin: 0 auto;
+          text-align: center; }
+        #main #trade .tb-m li .opbtn {
+          margin: 15px auto;
+          text-align: center;
+          height: 15px;
+          padding-left: 100px; }
+          #main #trade .tb-m li .opbtn span {
+            width: 8px;
+            height: 8px;
+            border: 1px solid #ccc;
+            padding: 2px;
+            border-radius: 50%;
+            display: block;
+            float: left;
+            cursor: pointer;
+            margin: 0 5px; }
+          #main #trade .tb-m li .opbtn .active {
+            box-shadow: inset 0 0 0 1px #b2b2b2;
+            border-color: #b2b2b2; }
+      #main #trade .tb-m li:hover {
+        box-shadow: inset #bbb 0 0 30px 1px;
+        cursor: pointer; }
+      #main #trade .tb-m .ob:hover img {
+        opacity: .8; }
+
+#trade-g {
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  margin-top: 25px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 3px 8px -6px rgba(0, 0, 0, 0.1); }
+  #trade-g .box-tit {
+    height: 60px;
+    border-bottom: 1px solid #eee; }
+    #trade-g .box-tit .tit {
+      float: left;
+      margin-left: 25px;
+      font-size: 22px;
+      color: #333;
+      text-align: center;
+      line-height: 60px; }
+  #trade-g .tb-g {
+    height: 857px;
+    width: 1220px;
+    float: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; }
+    #trade-g .tb-g li {
+      width: 304px;
+      height: 428px;
+      float: left;
+      transition: box-shadow,0.5s;
+      border-right: 1px solid rgba(0, 0, 0, 0.14);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.14); }
+      #trade-g .tb-g li img {
+        width: 216px;
+        height: 216px;
+        display: block;
+        margin: 0 auto;
+        padding: 45px 0 20px;
+        position: relative; }
+      #trade-g .tb-g li .tite {
+        margin: 0 auto;
+        font-weight: 700;
+        font-size: 15px;
+        text-align: center; }
+      #trade-g .tb-g li .indte {
+        width: 100%;
+        color: #999;
+        font-weight: 100;
+        font-size: 10px;
+        margin-top: 25px;
+        text-align: center; }
+      #trade-g .tb-g li .price {
+        display: block;
+        color: #f00;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0 auto;
+        text-align: center; }
+      #trade-g .tb-g li .opbtn {
+        margin: 15px auto;
+        text-align: center;
+        height: 15px;
+        display: flex;
+        justify-content: center; }
+        #trade-g .tb-g li .opbtn span {
+          width: 8px;
+          height: 8px;
+          border: 1px solid #ccc;
+          padding: 2px;
+          border-radius: 50%;
+          display: block;
+          float: left;
+          cursor: pointer;
+          margin: 0 5px; }
+        #trade-g .tb-g li .opbtn .active {
+          box-shadow: inset 0 0 0 1px #b2b2b2;
+          border-color: #b2b2b2; }
+    #trade-g .tb-g li:hover {
+      box-shadow: inset #bbb 0 0 30px 1px;
+      cursor: pointer; }
+    #trade-g .tb-g .ob:hover img {
+      opacity: .8; }
+
+#trade-j {
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  margin-top: 25px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 3px 8px -6px rgba(0, 0, 0, 0.1); }
+  #trade-j .box-tit {
+    height: 60px;
+    border-bottom: 1px solid #eee; }
+    #trade-j .box-tit .tit {
+      float: left;
+      margin-left: 25px;
+      font-size: 22px;
+      color: #333;
+      text-align: center;
+      line-height: 60px; }
+  #trade-j .tb-j {
+    height: 857px;
+    width: 1220px;
+    float: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; }
+    #trade-j .tb-j li {
+      width: 304px;
+      height: 428px;
+      float: left;
+      transition: box-shadow,0.5s;
+      border-right: 1px solid rgba(0, 0, 0, 0.14);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.14); }
+      #trade-j .tb-j li img {
+        width: 216px;
+        height: 216px;
+        display: block;
+        margin: 0 auto;
+        padding: 45px 0 20px;
+        position: relative; }
+      #trade-j .tb-j li .tite {
+        margin: 0 auto;
+        font-weight: 700;
+        font-size: 15px;
+        text-align: center; }
+      #trade-j .tb-j li .indte {
+        width: 100%;
+        color: #999;
+        font-weight: 100;
+        font-size: 10px;
+        margin-top: 25px;
+        text-align: center; }
+      #trade-j .tb-j li .price {
+        display: block;
+        color: #f00;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0 auto;
+        text-align: center; }
+      #trade-j .tb-j li .opbtn {
+        margin: 15px auto;
+        text-align: center;
+        height: 15px;
+        display: flex;
+        justify-content: center; }
+        #trade-j .tb-j li .opbtn span {
+          width: 8px;
+          height: 8px;
+          border: 1px solid #ccc;
+          padding: 2px;
+          border-radius: 50%;
+          display: block;
+          float: left;
+          cursor: pointer;
+          margin: 0 5px; }
+        #trade-j .tb-j li .opbtn .active {
+          box-shadow: inset 0 0 0 1px #b2b2b2;
+          border-color: #b2b2b2; }
+    #trade-j .tb-j li:hover {
+      box-shadow: inset #bbb 0 0 30px 1px;
+      cursor: pointer; }
+    #trade-j .tb-j .ob:hover img {
+      opacity: .8; }
+
+#trade-p {
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  margin-top: 25px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 3px 8px -6px rgba(0, 0, 0, 0.1); }
+  #trade-p .box-tit {
+    height: 60px;
+    border-bottom: 1px solid #eee; }
+    #trade-p .box-tit .tit {
+      float: left;
+      margin-left: 25px;
+      font-size: 22px;
+      color: #333;
+      text-align: center;
+      line-height: 60px; }
+  #trade-p .tb-p {
+    height: 857px;
+    width: 1220px;
+    float: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; }
+    #trade-p .tb-p li {
+      width: 304px;
+      height: 428px;
+      float: left;
+      transition: box-shadow,0.5s;
+      border-right: 1px solid rgba(0, 0, 0, 0.14);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.14); }
+      #trade-p .tb-p li img {
+        width: 216px;
+        height: 216px;
+        display: block;
+        margin: 0 auto;
+        padding: 45px 0 20px;
+        position: relative; }
+      #trade-p .tb-p li .tite {
+        margin: 0 auto;
+        font-weight: 700;
+        font-size: 15px;
+        text-align: center; }
+      #trade-p .tb-p li .indte {
+        width: 100%;
+        color: #999;
+        font-weight: 100;
+        font-size: 10px;
+        margin-top: 25px;
+        text-align: center; }
+      #trade-p .tb-p li .price {
+        display: block;
+        color: #f00;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0 auto;
+        text-align: center; }
+      #trade-p .tb-p li .opbtn {
+        margin: 15px auto;
+        text-align: center;
+        height: 15px;
+        display: flex;
+        justify-content: center; }
+        #trade-p .tb-p li .opbtn span {
+          width: 8px;
+          height: 8px;
+          border: 1px solid #ccc;
+          padding: 2px;
+          border-radius: 50%;
+          display: block;
+          float: left;
+          cursor: pointer;
+          margin: 0 5px; }
+        #trade-p .tb-p li .opbtn .active {
+          box-shadow: inset 0 0 0 1px #b2b2b2;
+          border-color: #b2b2b2; }
+    #trade-p .tb-p li:hover {
+      box-shadow: inset #bbb 0 0 30px 1px;
+      cursor: pointer; }
+    #trade-p .tb-p .ob:hover img {
+      opacity: .8; }
+
+#trade-x {
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  margin-top: 25px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 3px 8px -6px rgba(0, 0, 0, 0.1); }
+  #trade-x .box-tit {
+    height: 60px;
+    border-bottom: 1px solid #eee; }
+    #trade-x .box-tit .tit {
+      float: left;
+      margin-left: 25px;
+      font-size: 22px;
+      color: #333;
+      text-align: center;
+      line-height: 60px; }
+  #trade-x .tb-x {
+    height: 857px;
+    width: 1220px;
+    float: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; }
+    #trade-x .tb-x li {
+      width: 304px;
+      height: 428px;
+      float: left;
+      transition: box-shadow,0.5s;
+      border-right: 1px solid rgba(0, 0, 0, 0.14);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.14); }
+      #trade-x .tb-x li img {
+        width: 216px;
+        height: 216px;
+        display: block;
+        margin: 0 auto;
+        padding: 45px 0 20px;
+        position: relative; }
+      #trade-x .tb-x li .tite {
+        margin: 0 auto;
+        font-weight: 700;
+        font-size: 15px;
+        text-align: center; }
+      #trade-x .tb-x li .indte {
+        width: 100%;
+        color: #999;
+        font-weight: 100;
+        font-size: 10px;
+        margin-top: 25px;
+        text-align: center; }
+      #trade-x .tb-x li .price {
+        display: block;
+        color: #f00;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0 auto;
+        text-align: center; }
+      #trade-x .tb-x li .opbtn {
+        margin: 15px auto;
+        text-align: center;
+        height: 15px;
+        display: flex;
+        justify-content: center; }
+        #trade-x .tb-x li .opbtn span {
+          width: 8px;
+          height: 8px;
+          border: 1px solid #ccc;
+          padding: 2px;
+          border-radius: 50%;
+          display: block;
+          float: left;
+          cursor: pointer;
+          margin: 0 5px; }
+        #trade-x .tb-x li .opbtn .active {
+          box-shadow: inset 0 0 0 1px #b2b2b2;
+          border-color: #b2b2b2; }
+    #trade-x .tb-x li:hover {
+      box-shadow: inset #bbb 0 0 30px 1px;
+      cursor: pointer; }
+    #trade-x .tb-x .ob:hover img {
+      opacity: .8; }
+
+.over-floor {
+  position: relative;
+  width: 1219px;
+  margin: 25px auto;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #fff; }
+  .over-floor #of-title {
+    height: 60px;
+    padding-left: 25px;
+    line-height: 60px;
+    border-bottom: 1px solid #eee; }
+    .over-floor #of-title p {
+      font-weight: 700; }
+  .over-floor ul {
+    height: 305px; }
+    .over-floor ul li {
+      width: 244px;
+      padding: 30px;
+      float: left;
+      border-right: 1px solid #eee;
+      transition: box-shadow,0.5s; }
+      .over-floor ul li img {
+        width: 246px;
+        height: 138px;
+        display: block;
+        margin: 0 auto;
+        position: relative; }
+    .over-floor ul li:hover {
+      box-shadow: inset #bbb 0 0 30px 1px;
+      cursor: pointer; }
+    .over-floor ul p {
+      margin-top: 15px;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 32px; }
+    .over-floor ul .jieshao {
+      display: block;
+      width: 100%;
+      color: #999;
+      font-weight: 100;
+      font-size: 10px;
+      margin-top: 10px; }
+    .over-floor ul a {
+      display: block;
+      font-size: 12px;
+      margin-top: 22px;
+      color: blue; }
+
+.endM {
+  height: 355px;
+  width: 100%; }
+  .endM .overPro {
+    width: 1220px;
+    margin: 0 auto; }
+    .endM .overPro .footer {
+      height: 108px;
+      padding: 60px 0 55px 0;
+      border-bottom: 1px solid #e6e6e6;
+      position: relative; }
+      .endM .overPro .footer #footer-list li {
+        float: left;
+        margin-right: 50px;
+        line-height: 1; }
+        .endM .overPro .footer #footer-list li h3 {
+          color: #646464;
+          font-weight: 700;
+          font-size: 12px;
+          padding: 0 0 20px; }
+        .endM .overPro .footer #footer-list li ul li {
+          color: #c3c3c3;
+          font-size: 12px;
+          padding: 7px 0;
+          clear: both; }
+          .endM .overPro .footer #footer-list li ul li a {
+            color: #969696; }
+      .endM .overPro .footer #seriver {
+        position: absolute;
+        right: 0;
+        overflow: hidden;
+        line-height: 34px;
+        text-align: right; }
+        .endM .overPro .footer #seriver .phone {
+          font-size: 18px;
+          font-weight: 900;
+          line-height: 1;
+          cursor: default;
+          color: #5079d9;
+          position: relative; }
+        .endM .overPro .footer #seriver .time {
+          margin-top: 10px;
+          font-size: 12px; }
+        .endM .overPro .footer #seriver .des {
+          margin-top: -10px;
+          font-size: 12px; }
+        .endM .overPro .footer #seriver .online {
+          clear: both;
+          width: 241px;
+          font-size: 12px;
+          line-height: 1;
+          color: #999;
+          text-align: right; }
+          .endM .overPro .footer #seriver .online a {
+            float: right;
+            width: 132px;
+            height: 30px;
+            line-height: 0px;
+            background: linear-gradient(#fcfcfc, #f5f5f5);
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 700;
+            margin-top: 15px;
+            text-align: center;
+            color: #5079d9;
+            border: 1px solid #d0d0d0;
+            border-radius: 5px;
+            box-sizing: border-box; }
+            .endM .overPro .footer #seriver .online a span {
+              width: 12px;
+              height: 12px;
+              display: block;
+              background: #1729c4;
+              font-size: 10px;
+              border: 1px solid #1729c4;
+              border-radius: 50%;
+              margin-right: 4px;
+              position: relative;
+              color: #fff;
+              top: 7px;
+              left: 25px;
+              line-height: 13px;
+              text-indent: 3px; }
+    .endM .overPro .under {
+      color: #434d55;
+      font-size: 12px;
+      padding: 30px 0 60px; }
+      .endM .overPro .under .shenM p {
+        float: left;
+        height: 15px;
+        line-height: 15px;
+        color: #bdbdbd; }
+      .endM .overPro .under .shenM ul {
+        float: left;
+        margin: 0 0 0 12px; }
+        .endM .overPro .under .shenM ul li {
+          float: left;
+          line-height: 12px;
+          padding: 1px 10px 0;
+          border-left: 1px solid #ccc; }
+          .endM .overPro .under .shenM ul li a {
+            color: #ababab; }
+      .endM .overPro .under h6 {
+        clear: both;
+        padding: 10px 0 0;
+        height: 15px;
+        font-size: 0;
+        font-weight: 100; }
+        .endM .overPro .under h6 a {
+          color: #bdbdbd;
+          font-size: 12px;
+          display: inline-block;
+          height: 12px;
+          line-height: 1; }
+          .endM .overPro .under h6 a span {
+            margin-right: 20px; }
+
+#hide-list {
+  position: absolute;
+  top: 36px;
+  width: 100%;
+  left: 0; }
+  #hide-list .arrow {
+    position: relative;
+    width: 0;
+    height: 0;
+    left: 40px;
+    border: 10px solid;
+    border-color: transparent transparent #cfcfcf; }
+    #hide-list .arrow span {
+      display: block;
+      position: absolute;
+      top: -9px;
+      left: -10px;
+      width: 0;
+      height: 0;
+      border: 10px solid;
+      border-color: transparent transparent #fff; }
+  #hide-list .cloak {
+    border: 1px solid #cfcfcf;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 30px 75px 0 rgba(0, 0, 0, 0.3);
+    overflow: hidden; }
+    #hide-list .cloak li {
+      padding-top: 20px;
+      margin-left: 20px;
+      cursor: pointer; }
+    #hide-list .cloak li:hover {
+      color: #4d29ee; }
+
+.hide-menu1 {
+  margin: 0 auto;
+  width: 1500px;
+  background: #fff;
+  position: absolute;
+  height: 300px;
+  top: 60px;
+  left: -150px;
+  z-index: 2; }
+  .hide-menu1 .hide-one {
+    margin: 0 auto;
+    position: absolute;
+    width: 1220px;
+    left: 150px; }
+    .hide-menu1 .hide-one ul {
+      display: flex;
+      justify-content: center; }
+      .hide-menu1 .hide-one ul li {
+        padding-top: 28px; }
+        .hide-menu1 .hide-one ul li a {
+          font-size: 12px;
+          opacity: .5;
+          color: #000;
+          font-weight: 700;
+          cursor: default;
+          margin-left: 20px; }
+        .hide-menu1 .hide-one ul li .fffa {
+          display: flex;
+          height: 210px;
+          padding-top: 12px;
+          flex-wrap: wrap; }
+          .hide-menu1 .hide-one ul li .fffa span {
+            position: relative;
+            align-items: center;
+            margin: 0 0 10px 22px;
+            height: 40px;
+            white-space: nowrap; }
+            .hide-menu1 .hide-one ul li .fffa span img {
+              margin-right: 10px;
+              width: 40px;
+              height: 40px; }
+            .hide-menu1 .hide-one ul li .fffa span span {
+              display: inline-block;
+              width: 130px;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              font-weight: 700;
+              color: rgba(0, 0, 0, 0.8);
+              line-height: 55px; }
+            .hide-menu1 .hide-one ul li .fffa span a {
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 100%; }
